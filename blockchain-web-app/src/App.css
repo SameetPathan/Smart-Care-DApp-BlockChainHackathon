@@ -1,0 +1,101 @@
+
+.logo-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:inline-block;
+}
+.logo-container ul li {
+    width: 300px;
+    height: 120px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+    padding:20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container ul li a{
+  text-decoration:none !important;
+  display: inline-block;
+}
+.logo-holder{
+  text-align:center;
+}
+
+/* Logo-3 */
+.logo-3 h3 {
+    color: #e74c3c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height:1.3;
+}
+.logo-3 p {
+    font-size: 10px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background: #34495e;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 5px;
+}
+
+/* Followed */
+.follow{
+  position:fixed;
+  right:20px;
+  bottom:10px;
+}
+.follow img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #3F51B5;
+    border-radius: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    background: #fff;
+}
+
+
+@media only screen and (max-width:736px) {
+ 
+  .logo-container ul {
+      width: 100%;
+      text-align: center;
+  }
+  .logo-container ul li {
+      width: 290px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none !important;
+  }
+  .logo-4 p {
+      margin-top: 2px;
+  }
+  .Logos{
+    margin-top:20px;
+  }
+}
+
+h1.Logos {
+    font-weight: 400;
+    font-family: 'Bangers', cursive;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 0px #2d303a, -2px -2px 0px #2d303a, -2px 2px 0px #2d303a, 2px -2px 0px #2d303a;
+    color: #fff;
+}
+p.para {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 30px;
+    font-family: 'Lora', serif;
+    padding-top: 5px;
+    color: #333333;
+}
